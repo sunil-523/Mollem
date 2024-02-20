@@ -1,0 +1,15 @@
+.buttonPrep {
+  color: #018b00;
+  padding: var(--2, 8px) var(--3, 12px) var(--2, 8px) var(--4, 16px);
+  border-radius: 20px;
+}
+.buttonPrep:focus {
+  background: #018b00;
+  color: white;
+}
+.boxTime {
+  border-radius: 19px;
+  background: var(--white, #fff);
+
+  box-shadow: 3px 31px 40px -42px rgba(0, 0, 0, 0.25);
+}

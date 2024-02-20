@@ -1,0 +1,11 @@
+/* Hide the increment and decrement arrows */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Ensure the number input retains its style */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
